@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 16px;
+  font-family: 'DM Sans', sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+
+.sale-section{
+    background-image: url("../public/images/cta-page/cta-bg-image.png"),linear-gradient(#EA580C,#EA580C);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sale-heading{
+    font-size: 2.5rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#x1,#x2,#x3,#x4{
+    font-size: 1.2rem;
+    border: 1px solid #ffffffc1;
+
+}
+.sale-button{
+  background-color: #ffffff;
+  color: #EA580C;
+}
+
+@media (min-width:1024px){
+  .sale-heading {
+    padding: 0 16rem;
+  }
+}
+@media (min-width:1400px){
+  .sale-heading {
+    padding: 0 26rem;
+  }
+}
+
